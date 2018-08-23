@@ -1,0 +1,10 @@
+## YAML Template.
+---
+language: java
+
+addons:
+	sonarcloud:
+		organization: "adolpho"
+
+	script:
+		-mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
