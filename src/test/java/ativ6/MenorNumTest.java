@@ -16,14 +16,16 @@ import static org.junit.Assert.*;
  *
  * @author acn20
  */
-public class MediaTest {
+public class MenorNumTest {
+    
     
     @Test
-    public void testMedia() {
+    public void testMenorNum() {
         int[] v = {1,2,3,4,5,6,7};
-        Media m = new Media();
-        int res = (int) m.getMedia(v);
-        assertEquals(4.0, res, 0.01);
+        MenorNum menor = new MenorNum();
+        int res = menor.getMenorNum(v);
+        assertEquals(1.0, res, 0.01);
         
     }
+
 }

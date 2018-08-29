@@ -16,14 +16,14 @@ import static org.junit.Assert.*;
  *
  * @author acn20
  */
-public class MediaTest {
+public class AbaixoMediaTest {
     
-    @Test
-    public void testMedia() {
+  @Test
+    public void testAbaixoMedia() {
         int[] v = {1,2,3,4,5,6,7};
-        Media m = new Media();
-        int res = (int) m.getMedia(v);
-        assertEquals(4.0, res, 0.01);
+        AbaixoMedia abaixo = new AbaixoMedia();
+        int res = abaixo.getAbaixoMedia(v);
+        assertEquals(3, res, 0.01);
         
     }
 }

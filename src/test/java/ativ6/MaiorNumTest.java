@@ -16,14 +16,15 @@ import static org.junit.Assert.*;
  *
  * @author acn20
  */
-public class MediaTest {
+public class MaiorNumTest {
     
-    @Test
-    public void testMedia() {
+        @Test
+    public void testMaiorNum() {
         int[] v = {1,2,3,4,5,6,7};
-        Media m = new Media();
-        int res = (int) m.getMedia(v);
-        assertEquals(4.0, res, 0.01);
+        MaiorNum maior = new MaiorNum();
+        int res = maior.getMaiorNum(v);
+        assertEquals(7.0, res, 0.01);
         
     }
+
 }
